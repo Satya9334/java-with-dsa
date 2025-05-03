@@ -54,7 +54,7 @@ public class oddeven {
 //        } else {
 //            System.out.println(year + " ek leap year nahi hai.");
 //        }
-
+ 
         System.out.println("Enter any integer");
         int n= sc.nextInt();
         if (n<0){  // if n is less than zero
