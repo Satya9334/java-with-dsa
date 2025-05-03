@@ -39,33 +39,52 @@ public class Operatorsss {
 
         ///Assignment operators
 
-        int p =10;
-        int q;
+//        int p =10;
+//        int q;
+//
+//        ///=
+//        q = p;
+//        System.out.println(q); // 10
+//
+//        /// +=
+//        p+=q; //p=p+q;  // p = 10+10 =20;
+//        System.out.println(p);   // 20
+//
+//        /// -=
+//        p-=q; //p=p-q;  p=10-10;
+//        System.out.println(p);  //20 -10 =10
+//
+//        /// *=
+//        p*=q; // p=p*q; // p=10*10 = 100
+//        System.out.println(p);
+//
+//
+//        /// /=
+//        p/=q; // p=p/q // p=10 /10
+//        System.out.println(p);
+//
+//          /// %=
+//        p%=q; // p=p%q //p=10%10
+//        System.out.println(p);
 
-        ///=
-        q = p;
-        System.out.println(q); // 10
 
-        /// +=
-        p+=q; //p=p+q;  // p = 10+10 =20;
-        System.out.println(p);   // 20
+          ///  unary operator
+        int a=5, b=5;
 
-        /// -=
-        p-=q; //p=p-q;  p=10-10;
-        System.out.println(p);  //20 -10 =10
+        System.out.println(a++); //5
+        System.out.println(a); //6
 
-        /// *=
-        p*=q; // p=p*q; // p=10*10 = 100
-        System.out.println(p);
+        System.out.println(++b); //6
+        System.out.println(b); //6
 
+        int x = a++;
+        int y = ++b;
 
-        /// /=
-        p/=q; // p=p/q // p=10 /10
-        System.out.println(p);
+        System.out.println(x); //6
+        System.out.println(y); //7
 
-          /// %=
-        p%=q; // p=p%q //p=10%10
-        System.out.println(p);
+        System.out.println(a); //7
+        System.out.println(b); //7
 
 
 
