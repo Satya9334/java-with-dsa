@@ -33,15 +33,15 @@ public class oddeven {
 //
 
 
-        System.out.println("Enter the year:");
-        int year= sc.nextInt();
-        if (year %4 == 0){
-            System.out.println("yes it is a leap year");
-        }
-        else {
-            System.out.println("It is not leap year");
-        }
-
+//        System.out.println("Enter the year:");
+//        int year= sc.nextInt();
+//        if (year %4 == 0){
+//            System.out.println("yes it is a leap year");
+//        }
+//        else {
+//            System.out.println("It is not leap year");
+//        }
+//
 
 
         ////chat gpt code///
@@ -54,6 +54,13 @@ public class oddeven {
 //        } else {
 //            System.out.println(year + " ek leap year nahi hai.");
 //        }
+
+        System.out.println("Enter any integer");
+        int n= sc.nextInt();
+        if (n<0){  // if n is less than zero
+            n = n* (-1);
+        }
+        System.out.println("The absolute value is: "+n);
 
     }
 }
