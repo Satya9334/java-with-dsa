@@ -69,26 +69,39 @@ public class Operatorsss {
 
 
           ///  unary operator
-        int a=5, b=5;
-
-        System.out.println(a++); //5
-        System.out.println(a); //6
-
-        System.out.println(++b); //6
-        System.out.println(b); //6
-
-        int x = a++;
-        int y = ++b;
-
-        System.out.println(x); //6
-        System.out.println(y); //7
-
-        System.out.println(a); //7
-        System.out.println(b); //7
-
-
+//        int a=5, b=5;
+//
+//        System.out.println(a++); //5
+//        System.out.println(a); //6
+//
+//        System.out.println(++b); //6
+//        System.out.println(b); //6
+//
+//        int x = a++;
+//        int y = ++b;
+//
+//        System.out.println(x); //6
+//        System.out.println(y); //7
+//
+//        System.out.println(a); //7
+//        System.out.println(b); //7
 
 
+
+        int p=9, q=10;
+        System.out.println(p | q); /// use the bitwise OR operator convert to binary number 9,10 ->//result 11
+        System.out.println(p & q);  /// use the bitwise AND operator  convert to binary number 9,10 ->//Result 8
+        System.out.println(p ^ q);  /// use the bitwise  XOR  operator  convert to binary number 9,10 ->//Result  3
+
+
+        ///Bitwise complement operator using
+        System.out.println(p<<1);  ///  Left shift << Bitwise operator change to one bits shift left side 9<<1 = Result 18
+        System.out.println(p<<2);  /// Left shift << Bitwise operator change to Two bits shift left side 9<<2 = Result 36
+
+
+        System.out.println(q>>1);  /// Right shift >> Bitwise operator change to One bits shift left side 10>>1 = Result 5
+
+        System.out.println(q>>2);  /// /// Right shift >> Bitwise operator change to Two bits shift left side 10>>2 = Result 2
 
 
 
