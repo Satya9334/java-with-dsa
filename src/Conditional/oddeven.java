@@ -20,16 +20,40 @@ public class oddeven {
 
 
 /// Take positive integer input and tell if it is divisible by 5 or not
+//
+//
+//        System.out.println("Enter a number:");
+//        int n= sc.nextInt();
+//        if (n%5==0){
+//            System.out.println("Yes it is divisible by 5");
+//        }
+//        else {
+//            System.out.println("Not divisible by 5");
+//        }
+//
 
 
-        System.out.println("Enter a number:");
-        int n= sc.nextInt();
-        if (n%5==0){
-            System.out.println("Yes it is divisible by 5");
+        System.out.println("Enter the year:");
+        int year= sc.nextInt();
+        if (year %4 == 0){
+            System.out.println("yes it is a leap year");
         }
         else {
-            System.out.println("Not divisible by 5");
+            System.out.println("It is not leap year");
         }
+
+
+
+        ////chat gpt code///
+
+//        System.out.print("Saal daalein (year): ");
+//        int year = sc.nextInt();
+//
+//        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//            System.out.println(year + " ek leap year hai.");
+//        } else {
+//            System.out.println(year + " ek leap year nahi hai.");
+//        }
 
     }
 }
