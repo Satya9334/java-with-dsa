@@ -4,16 +4,15 @@ import java.util.Scanner;
 
 public class oddeven {
     public static void main(String[] args) {
-                                                                    // Question/// Take positive integer input and tell if is even and odd
         Scanner sc=new Scanner(System.in);
+                                                                    // Question/// Take positive integer input and tell if is even and odd
+
 //        System.out.println("Enter a number");
 //        int n= sc.nextInt();
 //        if (n%2==0){  // n even hai
 //            System.out.println("The number you entered is Even");
 //        }
-//
 //                                                                  // if (n%2!=0){ //n odd hai ////aise bhi likh sakte hai ya else ka use karenge
-//
 //        else {
 //            System.out.println("the number you Entered is odd");
 
@@ -54,13 +53,34 @@ public class oddeven {
 //        } else {
 //            System.out.println(year + " ek leap year nahi hai.");
 //        }
- 
-        System.out.println("Enter any integer");
-        int n= sc.nextInt();
-        if (n<0){  // if n is less than zero
-            n = n* (-1);
+//
+//        System.out.println("Enter any integer");
+//        int n= sc.nextInt();
+//        if (n<0){  // if n is less than zero
+//            n = n * (-1);
+//        }
+//        System.out.println("The absolute value is: "+n);
+
+
+
+        ///loss proffit
+
+        System.out.println("Enter cost price");
+        int cp= sc.nextInt();
+        System.out.println("Enter selling price");
+        int sp= sc.nextInt();
+        if (sp>cp){ //selling price Grater than cost price
+            System.out.print("your proffit is: ");
+            int profit= sp-cp;  //selling price - cost price
+            System.out.println(profit);
         }
-        System.out.println("The absolute value is: "+n);
+
+        else {
+            System.out.print("your loss is: ");
+            int loss= cp-sp;  //cost - selling price
+            System.out.println(loss);
+
+        }
 
     }
 }
