@@ -65,6 +65,8 @@ public class oddeven {
 
         ///loss proffit
 
+        // Question > if cost price and selling price of an item is input through the keyboard, write a program to determine Wheather the seller has made profit or incurred loss. also determine how much profit he made or loss he incurred
+
         System.out.println("Enter cost price");
         int cp= sc.nextInt();
         System.out.println("Enter selling price");
