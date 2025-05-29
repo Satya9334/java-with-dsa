@@ -67,21 +67,46 @@ public class oddeven {
 
         // Question > if cost price and selling price of an item is input through the keyboard, write a program to determine Wheather the seller has made profit or incurred loss. also determine how much profit he made or loss he incurred
 
-        System.out.println("Enter cost price");
-        int cp= sc.nextInt();
-        System.out.println("Enter selling price");
-        int sp= sc.nextInt();
-        if (sp>cp){ //selling price Grater than cost price
-            System.out.print("your proffit is: ");
-            int profit= sp-cp;  //selling price - cost price
-            System.out.println(profit);
-        }
+//        System.out.println("Enter cost price");
+//        int cp= sc.nextInt();
+//        System.out.println("Enter selling price");
+//        int sp= sc.nextInt();
+//        if (sp>cp){ //selling price Grater than cost price
+//            System.out.print("your proffit is: ");
+//            int profit= sp-cp;  //selling price - cost price
+//            System.out.println(profit);
+//        }
+//
+//        else {
+//            System.out.print("your loss is: ");
+//            int loss= cp-sp;  //cost - selling price
+//            System.out.println(loss);
+//
+//        }
 
-        else {
-            System.out.print("your loss is: ");
-            int loss= cp-sp;  //cost - selling price
-            System.out.println(loss);
 
+/// <<<<<<<<<<<<<<<<<<<<<<<< odd//// even//////////////////<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>
+
+
+//        int num = sc.nextInt();
+//
+//        if (num % 2 == 0){
+//            System.out.println("Even");
+//        }else {
+//            System.out.println("odd");
+//        }
+
+
+
+        ///>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>age group>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
+        int age = sc.nextInt();
+        if (age<12){
+            System.out.println("child");
+        } else if (age >12 && age < 18) {
+            System.out.println("teenager");
+        } else if (age>18) {
+            System.out.println("Adult");
         }
 
     }
