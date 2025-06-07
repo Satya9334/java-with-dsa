@@ -100,14 +100,21 @@ public class oddeven {
 
         ///>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>age group>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 
-        int age = sc.nextInt();
-        if (age<12){
-            System.out.println("child");
-        } else if (age >12 && age < 18) {
-            System.out.println("teenager");
-        } else if (age>18) {
-            System.out.println("Adult");
-        }
+//        int age = sc.nextInt();
+//        if (age<12){
+//            System.out.println("child");
+//        } else if (age >12 && age < 18) {
+//            System.out.println("teenager");
+//        } else if (age>18) {
+//            System.out.println("Adult");
+//        }
+
+
+int num = sc.nextInt();
+String ans;
+
+ans = (num % 2==0) ? "Even" : "Odd";
+        System.out.println(ans);
 
     }
 }
