@@ -110,11 +110,27 @@ public class oddeven {
 //        }
 
 
-int num = sc.nextInt();
-String ans;
+        /// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Ternary operator>>>>>>>>>>>>>>>>>>>>>>>>>.//////
+/// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.Result show>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.////
+//int num = sc.nextInt();
+//String ans;
+//
+//ans = (num % 2==0) ? "Even" : "Odd";
+//        System.out.println(ans);
 
-ans = (num % 2==0) ? "Even" : "Odd";
-        System.out.println(ans);
+//
+//        int value = sc.nextInt();
+//        if (value  % 2 == 0 && value % 3 == 0){
+//            System.out.println("Found ans -: " + value);
+//        }
+//
+//
+
+        int value = sc.nextInt();
+        if (value % 5 == 0 || value % 3 == 0){
+            System.out.println("found ans -: " + value);
+        }
+
 
     }
 }
